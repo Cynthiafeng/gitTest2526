@@ -1,0 +1,20 @@
+
+cd Desktop
+mkdir Test2
+cd Test2
+touch commands.txt
+cd ~/Desktop
+git clone https://github.com/Cynthiafeng/gitTest2526.git
+mv -r Test2 gitTest2526
+cd gitTest2526
+git add Test2/
+git commit -m "added test2"
+git push origin master
+nano repo.txt
+git add repo.txt
+git commit -m "added repo.txt"
+git push origin master
+nano index.html
+git add index.html
+git commit -m "added index.html"
+git push origin master
